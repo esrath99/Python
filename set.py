@@ -1,0 +1,15 @@
+num={2,3,4,5}
+print(num)
+num1={1,2,3,4,5}
+num2=set([4,5,6])
+print(num2)
+num3={4,5,6}
+num3.add(7)
+print(num3)
+num3.remove(7)
+print(num3)
+num4={1,2,3,4,5,7}
+num5={5,7,8,9}
+print(num4|num5)
+print(num4&num5)
+print(num4-num5)

@@ -1,0 +1,7 @@
+base = input("Enter base:")
+height = input("Enter height:")
+area = 0.5*int(base)*int(height)
+print(area)
+radius = input("Enter radius:")
+area = 3.1416*int(radius)*int(radius)
+print(area)
